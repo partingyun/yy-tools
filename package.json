@@ -1,0 +1,27 @@
+{
+  "name": "yy-tool",
+  "version": "0.0.1",
+  "description": "壹永工具库",
+  "main": "dist/yy-tool.cjs.js",
+  "module": "dist/yy-tool.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partingyun/yy-tools.git"
+  },
+  "author": "chenjy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/partingyun/yy-tools/issues"
+  },
+  "homepage": "https://github.com/partingyun/yy-tools#readme",
+  "devDependencies": {
+    "rollup": "^2.38.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.3"
+  }
+}
